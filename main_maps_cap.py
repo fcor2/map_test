@@ -4,7 +4,6 @@ import numpy as np
 import pydeck as pdk
 
 st.title("Capitales del Mundo")
-st.write('Seleccione un país de la lista.')
 
 #df
 df = pd.read_csv('data_cap.csv')
